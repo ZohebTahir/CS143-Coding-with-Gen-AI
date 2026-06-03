@@ -140,3 +140,72 @@ public class Main {
         company.displayReplacementHistory();
     }
 }
+
+/*
+# PROGRAM OUTPUT
+
+ ===== PERMANENT EMPLOYEES =====
+ Alice
+ Bob
+ Charlie
+ 
+ ===== REPLACEABLE EMPLOYEES =====
+ David (Cycles: 0)
+ Eve (Cycles: 0)
+ Frank (Cycles: 0)
+ Replaced: David with Grace
+ Replaced: Eve with Henry
+ Replaced: Frank with Ivy
+ Replaced: Grace with Jack
+ 
+ ===== PERMANENT EMPLOYEES =====
+ Alice
+ Bob
+ Charlie
+ 
+ ===== REPLACEABLE EMPLOYEES =====
+ Henry (Cycles: 2)
+ Ivy (Cycles: 1)
+ Jack (Cycles: 0)
+ 
+ ===== REPLACEMENT HISTORY =====
+ Grace
+ Frank
+ Eve
+ David
+ 
+  ----jGRASP: Operation complete.
+ 
+  ----jGRASP exec: java Main
+ 
+ ===== PERMANENT EMPLOYEES =====
+ Alice
+ Bob
+ Charlie
+ 
+ ===== REPLACEABLE EMPLOYEES =====
+ David (Cycles: 0)
+ Eve (Cycles: 0)
+ Frank (Cycles: 0)
+ Replaced: David with Grace
+ Replaced: Eve with Henry
+ Replaced: Frank with Ivy
+ Replaced: Grace with Jack
+ 
+ ===== PERMANENT EMPLOYEES =====
+ Alice
+ Bob
+ Charlie
+ 
+ ===== REPLACEABLE EMPLOYEES =====
+ Henry (Cycles: 2)
+ Ivy (Cycles: 1)
+ Jack (Cycles: 0)
+ 
+ ===== REPLACEMENT HISTORY =====
+ Grace
+ Frank
+ Eve
+ David
+
+*/
