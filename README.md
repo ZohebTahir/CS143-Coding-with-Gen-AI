@@ -5,13 +5,4 @@ The problem that we want to solve is cycling through old employees and replacing
 
 ## Reflection
 What did you learn in the process?
-- I learned that GenAI is an incredibly powerful tool, that can rapidly help one see the viability of their concept.
-
-What were the benefits of working with GenAI?
-- The benefits included quick building, rapid changes/feature updates, and quick proof-of-concept capabilities.
-
-What were the drawbacks? 
-- Some drawbacks include code verbosity, taking time to understand what was generated, and token limitations.
-
-Any other thoughts? 
-- It will be interesting to see how the field rapidly changes with newer and improved models and innovations. 
+I learned that GenAI is an incredibly powerful tool, that can rapidly help one see the viability of their concept. Specifically, if you wanted to test different app ideas/concepts, GenAI can generate different "styles" and "iterations" of that concept. The benefits included quick building, rapid changes/feature updates, and quick proof-of-concept capabilities. The speed is a really useful tool in rapidly brainstroming different features. Before, feature testing could have been a bottleneck when writing code on a deadline. Some drawbacks include code verbosity, taking time to understand what was generated, and token limitations. The code generated does seem to be larger than what a programmer could have coded. In the future it will be interesting to see how the field rapidly changes with newer and improved models and innovations. Maybe cutting down on the aforementioned drawbacks. Will we be prompting, reading, and "editing" more code in the future? 
